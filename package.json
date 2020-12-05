@@ -1,0 +1,39 @@
+{
+  "name": "vk-native-auth",
+  "version": "1.0.0",
+  "description": "VK API Auth service with CORS for ajax authentication with login and password",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gebeto/vk-native-auth.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gebeto/vk-native-auth/issues"
+  },
+  "homepage": "https://github.com/gebeto/vk-native-auth#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.0.0",
+    "form-data": "^3.0.0",
+    "joi": "^17.3.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-joi-router": "^7.0.0",
+    "koa-joi-validate": "^0.5.1",
+    "koa-router": "^10.0.0",
+    "koa-validate": "^1.0.7",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
